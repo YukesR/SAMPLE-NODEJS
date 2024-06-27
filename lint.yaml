@@ -14,8 +14,8 @@ phases:
       - cd node && npm run build
       - echo "Building the frontend..."
       - cd ../frontend && npm run build
+
 artifacts:
   files:
-    - backend/dist/**/*
-    - frontend/build/**/*
-  discard-paths: yes
+    - '**/*'  # Include all files in the artifacts
+  discard-paths: no 
