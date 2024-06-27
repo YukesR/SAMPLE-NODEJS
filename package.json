@@ -1,0 +1,11 @@
+{
+  "name": "my-nodejs-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo 'No tests available'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
