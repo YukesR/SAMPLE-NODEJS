@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.17.1"  // Example dependency
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"   // Example dev dependency
+  }
+}
